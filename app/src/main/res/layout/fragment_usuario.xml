@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinnerEstadoUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtCorreoUsuario" />
+
+    <ImageView
+        android:id="@+id/btnActualizarUsuario"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNombreUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btnAgregarUsuario"
+        app:layout_constraintTop_toTopOf="@+id/text_share"
+        app:srcCompat="@drawable/ic_mode_edit_blue_24dp" />
+
+    <ImageView
+        android:id="@+id/btnAgregarUsuario"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNombreUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btnConsultarUsuario"
+        app:layout_constraintTop_toTopOf="@+id/text_share"
+        app:srcCompat="@drawable/ic_person_add_blue_24dp" />
+
+    <EditText
+        android:id="@+id/txtTelefonoUser"
+        android:layout_width="171dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/searchUsuario"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <TextView
+        android:id="@+id/text_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/navUsuarios"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNombreUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <EditText
+        android:id="@+id/txtApellidoUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:hint="@string/apellidos"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <EditText
+        android:id="@+id/txtTelefonoUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <EditText
+        android:id="@+id/txtCorreoUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="332dp"
+        android:ems="10"
+        android:hint="@string/correoUsuario"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <Spinner
+        android:id="@+id/spinnerRolUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtCorreoUsuario" />
+
+    <EditText
+        android:id="@+id/txtPasswordUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="476dp"
+        android:ems="10"
+        android:hint="@string/PasswordUsuario"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textPassword"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <EditText
+        android:id="@+id/txtDireccionUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
+        android:ems="10"
+        android:hint="@string/Direccion"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_share" />
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/stylebtn"
+        android:text="@string/procesar"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtDireccionUsuario" />
+
+    <ImageView
+        android:id="@+id/btnConsultarUsuario"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNombreUsuario"
+        app:layout_constraintStart_toStartOf="@+id/txtTelefonoUser"
+        app:layout_constraintTop_toTopOf="@+id/text_share"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_search_blue_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

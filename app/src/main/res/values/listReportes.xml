@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listReportes">
+        <item>Reportes</item>
+        <item>Usuarios</item>
+        <item>Prestamos</item>
+        <item>Clientes</item>
+        <item>Cobros</item>
+    </string-array>
+</resources>

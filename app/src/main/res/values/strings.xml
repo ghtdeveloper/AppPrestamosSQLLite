@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">FPaymentt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Clientes</string>
+    <string name="menu_gallery">Prestamos</string>
+    <string name="menu_slideshow">Pagos</string>
+    <string name="menu_tools">Usuarios</string>
+    <string name="menu_share">Configuracion</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_navegation">Inicio</string>
+    <string name="inversiones_celegel">Inversiones Celegel</string>
+    <string name="fpaymentt">FPaymentt</string>
+    <string name="v0_0">V0.0</string>
+    <string name="title_activity_clientes">Clientes</string>
+    <string name="title_activity_prestamos">Prestamos</string>
+    <string name="title_activity_pagos">Pagos</string>
+    <string name="title_activity_usuarios">Usuarios</string>
+    <string name="title_activity_activty_config">Configuracion</string>
+    <string name="signOut">Cerrar sesion</string>
+    <string name="nombres">Nombres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--String name  actividad login -->
+    <string name="logoTipo">Logotipo</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Acceder">Iniciar Sesion</string>
+    <string name="RecoverPassword">¿Olvidaste tu constraseña?</string>
+    <string name="recordarUsuario">Recordar mi usuario!</string>
+    <string name="registro">¿Usuario Nuevo?</string>
+    <string name="textDialogoRecuperarPassword">Recuperar contraseñas</string>
+    <string name="correo">Ingrese el correo</string>
+    <string name="searchUsuario">TELEFONO</string>
+    <string name="buscar">Consultar</string>
+    <!-- *********************************************************-->
+
+    <string name="procesar">Procesar</string>
+
+    <!-- Dialogo registro usuario Login-->
+    <string name="Registro">REGISTRARSE</string>
+    <string name="RegistroUsuario">Usuario</string>
+    <string name="nombreUsuario">Nombre</string>
+    <string name="correoUsuario">Correo</string>
+    <string name="telefonoUsuario">Teléfono</string>
+    <string name="PasswordUsuario">Contraseña</string>
+    <string name="PasswordAdmin">Contraseña Administrativa</string>
+    <string name="confirmarPasswordUsuario">Confirmar Contraseña</string>
+    <string name="terminosYCondiciones">Acepto los Términos y condiciones.</string>
+    <string name="btnRegistrar">Registrarme</string>
+    <string name="AccederLogin">Ya tienes una cuenta?</string>
+    <string name="Entrar">Entrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="navClientes">Clientes</string>
+    <string name="navPrestamos">Prestamos</string>
+    <string name="navPagos">Pagos</string>
+    <string name="navUsuarios">Usuarios</string>
+    <string name="navConfiguracion">Configuracion</string>
+    <string name="navCerrarSesion">Cerrar sesion</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--Fragment Clientes Agregar-->
+    <string name="nombre">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="cedula">Cedula</string>
+    <string name="telefono">Telefono</string>
+    <string name="Sexo">Sexo</string>
+    <string name="Direccion">Direccion</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <!--Fragment prestamos Agregar-->
+    <string name="monto">Monto</string>
+    <string name="Moneda">Moneda</string>
+    <string name="tipo_prestamo">Tipo Prestamo</string>
+    <string name="fechaSoliciutd">Fecha Solicitud</string>
+    <string name="interes">Tipo de interes %</string>
+    <string name="cuotas">Cuota mensual</string>
+    <string name="fechaInicialPago">Fecha Inicial Pago</string>
+    <string name="fechaFinalPago">Fecha Final Pago</string>
+    <string name="clientePrestamo">ID Clientes</string>
+    <!--Fragment Cobros Agregar-->
+    <string name="idPrestamo">ID Prestamo</string>
+    <string name="MonedaCobros">Moneda</string>
+    <string name="fecha_pago">Fecha de pago</string>
+    <string name="nombreCliente">Nombre Cliente</string>
+    <!--Fragment Usuarios Agregar-->
+    <string name="usuarioCorreo">Correo</string>
+    <!--Fragment Configuracion Agregar-->
+    <string name="cantUsuario">Cant Usuarios</string>
+    <string name="passwordAdmin">Password general</string>
+    <!-- Dialogo cerrar sesion-->
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="nav_consultar">Consultar</string>
+    <string name="telefonoCliente">Telefono Cliente</string>
+    <string name="montoDeudor">Monto a pagar</string>
+    <string name="montoPagado">Monto pagado</string>
+    <string name="totalInteres">Total interes</string>
+    <string name="plazoAmortizacion">Plazo de amortizacion</string>
+    <string name="meses">Meses</string>
+    <string name="year">Años</string>
+    <string name="totalIntereses">Total intereses</string>
+    <string name="montoFinal">Monto Final</string>
+    <string name="calcularPrestamo">Calcular</string>
+</resources>

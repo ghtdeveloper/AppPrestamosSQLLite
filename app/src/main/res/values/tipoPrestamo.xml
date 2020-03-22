@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoDePrestamos">
+        <item>Tipo De Prestamo:</item>
+        <item>Quincenales</item>
+        <item>Semanales</item>
+        <item>Mensuales</item>
+    </string-array>
+</resources>
