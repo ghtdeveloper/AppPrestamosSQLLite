@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity  {
 
     //Comentario
 
+    //comentario rama root
+
                     //BD
     private OpenHelper dbHelper;
     private SQLiteDatabase db;
