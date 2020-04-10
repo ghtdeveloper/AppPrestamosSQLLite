@@ -24,6 +24,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity  {
 
+    //Comentario
+
                     //BD
     private OpenHelper dbHelper;
     private SQLiteDatabase db;
